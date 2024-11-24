@@ -3,8 +3,7 @@ import Home from "./components/Home"
 import Paste from "./components/Paste"
 import ViewPaste from "./components/ViewPaste"
 import Navbar from "./components/Navbar"
-
-
+import './App.css'
 const router = createBrowserRouter(
   [
     {

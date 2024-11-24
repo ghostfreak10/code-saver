@@ -70,7 +70,7 @@ const Home = () => {
             } text-black border border-input rounded-md p-2`}
           />
           <button
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
+            className="text-white bg-[#7b2cbf] hover:bg-[#5d2391] focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700"
             onClick={createPaste}
           >
             {pasteId ? "Update Paste" : "Create My Paste"}
@@ -123,7 +123,7 @@ const Home = () => {
             value={value}
             onChange={(e) => setValue(e.target.value)}
             placeholder="Write Your Content Here...."
-            className="w-full p-3  focus-visible:ring-0"
+            className="w-full p-3  focus-visible:ring-0 "
             style={{
               caretColor: "#000",
             }}
